@@ -10,4 +10,9 @@ public class AuthController {
     public String authenticate() {
         return "authenticated";
     }
+
+    @PostMapping("/signout")
+    public String signout() {
+        return "signout";
+    }
 }
